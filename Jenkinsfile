@@ -59,6 +59,7 @@ pipeline {
       }
     }
 // Deploying your Software
+//test comment
     stage('DEPLOY') {
           when {
            branch 'master'  //only run these steps on the master branch
